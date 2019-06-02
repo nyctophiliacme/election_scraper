@@ -1,0 +1,28 @@
+{
+  "name": "election_scaper",
+  "version": "1.0.0",
+  "description": "A script to scrape results.eci.gov.in for constituency wise election results for all the candidates",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pransh",
+  "license": "ISC",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyctophiliacme/election_scraper.git"
+  },
+  "keywords": [
+    "Election Scraper",
+    "Election Crawler"
+  ],
+  "bugs": {
+    "url": "https://github.com/nyctophiliacme/election_scraper/issues"
+  },
+  "homepage": "https://github.com/nyctophiliacme/election_scraper#readme"
+}
