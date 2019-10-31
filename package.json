@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A script to scrape results.eci.gov.in for constituency wise election results for all the candidates",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "request": "^2.88.0"
+    "cheerio": "1.0.0-rc.3",
+    "request": "2.88.0"
   },
   "scripts": {
     "start": "node server.js",
